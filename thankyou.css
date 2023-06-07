@@ -1,15 +1,15 @@
 /* style.css */
 body {
-  font-family: "Arial", sans-serif;
-  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
   margin: 0;
   padding: 0;
 }
 
 .container {
-  max-width: 400px;
+  max-width: 500px;
   margin: 100px auto;
-  padding: 30px;
+  padding: 20px;
   background-color: #fff;
   text-align: center;
   border-radius: 5px;
@@ -17,39 +17,20 @@ body {
 }
 
 h1 {
-  font-size: 36px;
-  color: #1f487e;
-  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
 }
 
 p {
   font-size: 18px;
-  color: #555;
-  margin-bottom: 30px;
-  line-height: 1.5;
+  color: #666;
 }
 
-.container::after,
-.container::before {
-  content: "";
-  display: block;
-  clear: both;
-  height: 1px;
-  background-color: #ccc;
-}
-
-.container::after {
-  margin-bottom: 20px;
-}
-
-.container::before {
-  margin-top: 20px;
-}
-
-.container a {
+.back-link {
   display: inline-block;
-  text-decoration: none;
+  margin-top: 20px;
   color: #1f487e;
+  text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
   background-color: #f1f1f1;
@@ -57,21 +38,6 @@ p {
   transition: background-color 0.3s ease;
 }
 
-.container a:hover {
+.back-link:hover {
   background-color: #e0e0e0;
-}
-
-.footer {
-  margin-top: 40px;
-  font-size: 14px;
-  color: #777;
-}
-
-.footer a {
-  color: #777;
-  text-decoration: none;
-}
-
-.footer a:hover {
-  text-decoration: underline;
 }
